@@ -1,0 +1,17 @@
+﻿#include <stdio.h>
+void main()
+{ 
+	puts("             |\\");
+	puts("             |_\\ ");
+	puts("       ______|______  ");
+	puts("      /             \\");
+	puts("     /               \\");
+	puts("    /                 \\");
+	puts("   |                   |");
+	puts("   |                   |");
+	puts("   |                   |");
+	puts("    \\                 /");
+	puts("     \\               /");
+	puts("      \\             /");
+	puts("       \\___________/");
+}

@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main()
+{
+	setlocale(LC_ALL, "RUS");
+	int b_days, b_month, b_year, n_day, n_month, n_year, days, months;
+	b_days = 17;
+	b_month = 9;
+	b_year = 2007;
+	n_day = 2;
+	n_month = 10;
+	n_year = 2025;
+	months = (n_year - b_year) * 12 + (n_month - b_month);
+	days = n_day - b_days;
+	printf("Прожито %d месяцев и %d дней", months, days);
+
+}

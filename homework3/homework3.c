@@ -1,18 +1,16 @@
+﻿//Вариант16
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <locale.h>
 
 int main()
 {
 	setlocale(LC_ALL, "RUS");
-	int b_days, b_month, b_year, n_day, n_month, n_year, days, months;
-	b_days = 17;
-	b_month = 9;
-	b_year = 2007;
-	n_day = 28;
-	n_month = 9;
-	n_year = 2025;
-	months = (n_year - b_year) * 12 + (n_month - b_month);
-	days = n_day - b_days;
-	printf("������� %d ������� � %d ����", months, days);
-
+	int l_year;
+	int days, months;
+	puts("Введите число прожитых лет");
+	scanf("%d", &l_year);
+	months = l_year * 12;
+	days = (l_year - l_year / 4) * 365 + l_year / 4 * 366;
+	printf("Дано:\nЧисло прожитых лет:%d\nРешение:\nЧисло прожитых месяцев:%d\nЧисло прожитых дней:%d", l_year, months, days);
 }

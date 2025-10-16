@@ -24,14 +24,15 @@ int main()
 	puts("---------------------------------");
 	printf("x = %f\ny = %f\nz = %f\n", x, y, z);
 	puts("Вычисление кубического корня:");
-	printf("(%f ^ 6 + (ln%f) ^ 2) ^ 1/3\n", x, y);
+	printf("(%f ^ 6 + (ln %f) ^ 2) ^ 1/3\n", x, y);
 	puts("Вычисление числителя:");
 	printf("e ^ |%f - %f| * |%f - %f| ^ (%f + %f)\n", x, y, x, y, x, y);
 	puts("Вычисление знаменателя:");
-	printf("arctan(%f) + arctan(%f)\n", x, z);
+	printf("arctg(%f) + arctg(%f)\n", x, z);
 	puts("Вычисление результата:");
 	printf("%f + %f / %f\n", res1, res2, res3);
 	puts("---------------------------------");
 	printf("Результат: %.3f", w);
 	return 0;
 }
+

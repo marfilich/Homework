@@ -24,10 +24,7 @@ w = 3√(x ^ 6 + (ln y) ^ 2) + e ^ |x - y| * |x - y| ^ (x + y) / (arctg(x) + arc
 8. **Конец**
 
 ### Блок-схема
-![Блок-схема алгоритма]() 
-
- [Ссылка]().
-
+![Блок-схема алгоритма](https://github.com/marfilich/Homework/blob/main/homework_Lb5/Лаб5.png?raw=true) 
 
 ## 2. Реализация программы
 ```C

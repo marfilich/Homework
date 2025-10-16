@@ -20,7 +20,11 @@ int main()
 	scanf("%f", &x);
 	for (int i = 1; i <= n; i++) {
 		result += pow(sin(x), i);
-		printf("%f\n", result);
 	}
+	puts("Дано:");
+	puts("--------------------");
+	printf("n = %d\nx = %f\n", n, x);
+	puts("--------------------");
+	puts("Результат:");
 	printf("%f", result);
 }

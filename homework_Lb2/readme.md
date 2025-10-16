@@ -23,7 +23,7 @@
 ### Блок-схема
 ![Блок-схема алгоритма](https://github.com/marfilich/Homework/blob/main/homework_Lb2/дз%20к%20лабе2.png) 
 
- [Ссылка]([https://app.diagrams.net/#Hmarfilich%2FHomework%2Fmain%2Fhomework_Lb2%2Fдз%20к%20лабе2.drawio#%7B%22pageId%22%3A%222pXUweVeXQ0tfu0EPKvS%22%7D](https://github.com/marfilich/Homework/blob/main/homework_Lb2/дз%20к%20лабе2.png)).
+ [Ссылка](https://github.com/marfilich/Homework/blob/main/homework_Lb2/дз%20к%20лабе2.png).
 
 
 ## 2. Реализация программы

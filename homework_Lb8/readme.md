@@ -24,6 +24,8 @@ sin x + sin x ^ 2 + ... + sin x ^ n
 
 ## 2. Реализация программы
 ```C
+//Вариант 17
+//Контрольный пример x = 2,5  n = 10. Результат работы программы 0,359827
 #define _CRT_SECURE_NO_WARNINGS
 #define _USE_MATH_DEFINES
 #include <stdio.h>

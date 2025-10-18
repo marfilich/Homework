@@ -17,8 +17,8 @@
    - `human_bonfire` - расстояние от человека до костра.
 3. Вычислить минимальное расстояние:
    - `min_distance` = `sqrt(pow(human_bonfire, 2)` + `pow(river_bonfire + river_human, 2))`
-8. Вывести результаты расчетов.
-9. **Конец**
+4. Вывести результаты расчетов.
+5. **Конец**
 
 ### Блок-схема
 ![Блок-схема алгоритма](https://github.com/marfilich/Homework/blob/main/homework_Lb2/дз%20к%20лабе2.png) 

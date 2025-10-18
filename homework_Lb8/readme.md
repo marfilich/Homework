@@ -20,7 +20,7 @@ sin x + sin x ^ 2 + ... + sin x ^ n
 7. **Конец**
 
 ### Блок-схема
-![Блок-схема алгоритма]() 
+![Блок-схема алгоритма](https://github.com/marfilich/Homework/blob/main/homework_Lb8/лабораторная8.drawio.png?raw=true) 
 
 ## 2. Реализация программы
 ```C

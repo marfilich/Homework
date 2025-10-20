@@ -19,7 +19,7 @@
 6. **Конец**
 
 ### Блок-схема
-![Блок-схема алгоритма]() 
+![Блок-схема алгоритма](https://github.com/marfilich/Homework/blob/main/homework3/лб3.png?raw=true) 
 
 
 ## 2. Реализация программы

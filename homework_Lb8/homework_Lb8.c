@@ -6,10 +6,10 @@
 #include <stdio.h>
 #include <locale.h>
 #include <math.h>
+#define PI 3.14
 
 int main()
 {
-	const float PI = 3.14;
 	setlocale(LC_ALL, "RUS");
 	int n;
 	float x, result;
@@ -29,3 +29,4 @@ int main()
 	printf("%f", result);
 
 }
+

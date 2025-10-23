@@ -48,7 +48,7 @@ int main()
 		puts("Введите стороны прямоугольника через пробел");
 		scanf("%f %f", &a, &b);
 		s = area_rectangle(a, b);
-		printf("%f", s);
+		printf("Площадь равна: %f", s);
 		break;
 	case 2:
 		puts("Определение фигуры");
@@ -69,3 +69,4 @@ int main()
 		break;
 	}
 }
+

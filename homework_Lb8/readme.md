@@ -20,7 +20,7 @@ sin x + sin x ^ 2 + ... + sin x ^ n
 7. **Конец**
 
 ### Блок-схема
-![Блок-схема алгоритма](https://github.com/marfilich/Homework/blob/main/homework_Lb8/лабораторная8.drawio.png?raw=true) 
+![Блок-схема алгоритма](https://github.com/marfilich/Homework/blob/main/homework_Lb8/лб8.png) 
 
 ## 2. Реализация программы
 ```C
@@ -34,17 +34,18 @@ sin x + sin x ^ 2 + ... + sin x ^ n
 
 int main()
 {
-	const float PI = 3.14;
 	setlocale(LC_ALL, "RUS");
 	int n;
-	float x, result;
+	float x, result, pow;
 	result = 0;
+	pow = 1;
 	puts("Введите натуральное число n");
 	scanf("%d", &n);
 	puts("Введите действительное число х");
 	scanf("%f", &x);
 	for (int i = 1; i <= n; i++) {
-		result += sin(pow(x, i));
+		pow *= x;
+		result += sin(pow);
 	}
 	puts("Дано:");
 	puts("--------------------");
@@ -52,7 +53,6 @@ int main()
 	puts("--------------------");
 	puts("Результат:");
 	printf("%f", result);
-
 }
 ```
 

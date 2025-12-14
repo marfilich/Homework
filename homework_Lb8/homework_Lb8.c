@@ -12,14 +12,16 @@ int main()
 {
 	setlocale(LC_ALL, "RUS");
 	int n;
-	float x, result;
+	float x, result, pow;
 	result = 0;
+	pow = 1;
 	puts("Введите натуральное число n");
 	scanf("%d", &n);
 	puts("Введите действительное число х");
 	scanf("%f", &x);
 	for (int i = 1; i <= n; i++) {
-		result += sin(pow(x, i));
+		pow *= x;
+		result += sin(pow);
 	}
 	puts("Дано:");
 	puts("--------------------");
@@ -27,6 +29,4 @@ int main()
 	puts("--------------------");
 	puts("Результат:");
 	printf("%f", result);
-
 }
-
